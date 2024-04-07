@@ -18,11 +18,6 @@ public class BoardController {
 	@Autowired
 	BoardService service;
 	
-	@GetMapping("/index")
-	public String index() {
-		return "tables";
-	}
-	
 	@GetMapping("/tables")
 	public String tables() {
 		return "tables";
